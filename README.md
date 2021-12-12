@@ -16,7 +16,7 @@ If you are writing a plugin that will use this SDK, it is recommended that you a
 
 ```php
 $plugin->dependencies = array(
-    'local_aws' => 2017030100
+    'local_aws' => 2021120100
 );
 ```
 
@@ -52,7 +52,9 @@ https://github.com/catalyst/moodle-tool_objectfs
 
 ## Supported Moodle Versions
 
-This plugin requires Moodle 2.6+
+| Moodle version      | Branch  |
+| ------------------ | ------- |
+| Moodle 2.6 to 3.11  | master  |
 
 ## Installation
 
